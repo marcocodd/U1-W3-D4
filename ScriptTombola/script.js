@@ -14,7 +14,7 @@ const tabCreation = function () {
 
 tabCreation();
 
-//funzione per chiamare numeri random da 1 a 90, ma credo mi servirà un array di numeri da 1/90 per non chiamare mai lo stesso numero...
+//funzione per chiamare numeri random da 1 a 90 prova per vedere se il bottone va, ma servirà un array di numeri da 1 a90 per non chiamare mai lo stesso numero...
 
 const callRandomNumber = function () {
   const CalledNumber = Math.floor(Math.random() * 90) + 1;
@@ -25,3 +25,10 @@ const callRandomNumber = function () {
 const button = document.getElementById("callButton");
 
 button.addEventListener("click", callRandomNumber);
+
+const Numbers = [];
+
+for (i = 1; i < 90; i++) {
+  Numbers.push(i);
+}
+console.log(Numbers);
