@@ -1,0 +1,18 @@
+
+    
+
+
+#divTabella{
+   
+    width: 60%;
+    
+}
+
+.divNumbers{
+
+    border:solid 1px;
+    display: inline-block;
+    width: 10%;
+    text-align: center;
+
+}
